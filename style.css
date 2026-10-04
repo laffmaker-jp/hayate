@@ -26,6 +26,23 @@ body {
   margin: 0 auto;
 }
 
+/* =========================
+   FIRST VIEW
+========================= */
+
+.fv {
+  position: relative;
+  width: 100%;
+  min-height: 800px;
+}
+
+/* スマホ */
+@media (max-width: 768px) {
+  .fv {
+    min-height: 700px;
+  }
+}
+
 /* スマホ */
 @media (max-width: 768px) {
   .container {
