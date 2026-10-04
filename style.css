@@ -63,3 +63,29 @@ body {
   width: 100%;
   height: auto;
 }
+/* =========================
+   FV MAIN NINJA
+========================= */
+
+.fv-ninja {
+  position: absolute;
+  left: 6%;
+  bottom: 0;
+  width: min(52vw, 650px);
+  z-index: 2;
+}
+
+.fv-ninja img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* スマホ */
+@media (max-width: 768px) {
+  .fv-ninja {
+    left: 2%;
+    bottom: 40px;
+    width: 72vw;
+  }
+}
