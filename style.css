@@ -71,7 +71,7 @@ body {
   position: absolute;
   left: 6%;
   bottom: 0;
-  width: min(52vw, 650px);
+  width: min(38vw, 500px);
   z-index: 2;
 }
 
