@@ -95,7 +95,7 @@ body {
 
 .fv-copy {
   position: absolute;
-  right: 12%;
+  right: 22%;
   top: 42%;
   width: min(22vw, 300px);
   z-index: 3;
