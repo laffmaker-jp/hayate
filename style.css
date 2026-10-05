@@ -11,7 +11,7 @@ html {
 body {
   width: 100%;
   min-width: 320px;
- background: #111111;
+  background: #171311;
 }
 
 /* LP全体 */
@@ -114,7 +114,7 @@ body {
   position: relative;
   width: 100%;
   min-height: 900px;
-  background: #111111;
+   background: #171311;
   overflow: hidden;
 }
 
