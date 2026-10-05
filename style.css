@@ -136,7 +136,7 @@ body {
 .concept-copy {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 60%;
   width: min(30vw, 420px);
   transform: translate(-50%, -50%);
   z-index: 2;
