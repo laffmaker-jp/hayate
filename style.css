@@ -89,3 +89,20 @@ body {
     width: 72vw;
   }
 }
+/* =========================
+   FV COPY
+========================= */
+
+.fv-copy {
+  position: absolute;
+  right: 12%;
+  top: 48%;
+  width: min(22vw, 300px);
+  z-index: 3;
+}
+
+.fv-copy img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
