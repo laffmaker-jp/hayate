@@ -112,8 +112,8 @@ body {
 
 .fv-kotowaru {
   position: absolute;
-  right: 5%;
-  top: 85%;
+  right: 7%;
+  top: 55%;
   width: min(28vw, 380px);
   z-index: 3;
 }
