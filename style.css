@@ -107,19 +107,81 @@ body {
   height: auto;
 }
 /* =========================
-   FV KOTOWARU
+   2ページ目
 ========================= */
 
-.fv-kotowaru {
-  position: absolute;
-  right: 7%;
-  top: 55%;
-  width: min(28vw, 380px);
-  z-index: 3;
+.concept {
+  position: relative;
+  width: 100%;
+  min-height: 900px;
+  background: #0B1426;
+  overflow: hidden;
 }
 
-.fv-kotowaru img {
+/* まきびし忍者 */
+.concept-makibishi {
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  width: min(30vw, 420px);
+}
+
+.concept-makibishi img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+/* 断る！！ */
+.concept-copy {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: min(30vw, 420px);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.concept-copy img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* にんにん忍者 */
+.concept-ninnin {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  width: min(30vw, 420px);
+}
+
+.concept-ninnin img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* スマホ */
+@media (max-width: 768px) {
+  .concept {
+    min-height: 850px;
+  }
+
+  .concept-makibishi {
+    left: -5%;
+    bottom: 5%;
+    width: 55vw;
+  }
+
+  .concept-copy {
+    top: 35%;
+    width: 60vw;
+  }
+
+  .concept-ninnin {
+    right: -5%;
+    bottom: 5%;
+    width: 55vw;
+  }
 }
