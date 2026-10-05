@@ -106,3 +106,20 @@ body {
   width: 100%;
   height: auto;
 }
+/* =========================
+   FV KOTOWARU
+========================= */
+
+.fv-kotowaru {
+  position: absolute;
+  right: 5%;
+  top: 85%;
+  width: min(28vw, 380px);
+  z-index: 3;
+}
+
+.fv-kotowaru img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
