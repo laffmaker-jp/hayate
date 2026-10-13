@@ -185,3 +185,17 @@ body {
     width: 55vw;
   }
 }
+/* =========================
+   3ページ目：業務紹介
+========================= */
+
+.ninmu {
+  width: 100%;
+  background: #111111;
+}
+
+.ninmu img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
