@@ -199,3 +199,18 @@ body {
   width: 100%;
   height: auto;
 }
+
+/* =========================
+   4ページ目：忍術紹介
+========================= */
+
+.ninjutsu {
+  width: 100%;
+  background: #111111;
+}
+
+.ninjutsu img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
